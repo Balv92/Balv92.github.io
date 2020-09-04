@@ -1,0 +1,24 @@
+.size{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.red{
+    background-color: red;
+   float: left;
+
+}
+.clear-float{
+    clear: both;
+}
+.black{
+    background-color: black;
+
+}
+.container-flex{
+    display:flex ; 
+    background-color: burlywood;
+    flex-direction: row;
+    /* justify-content: space-evenly;chia đều các khoảng trống ở giữa hai bên viền bằng 1/2 */
+    
+}
