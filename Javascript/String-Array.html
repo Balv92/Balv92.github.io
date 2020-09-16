@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>String_array</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <script>
+
+        // Bài tập phần mảng
+        //   Bài 1
+
+        var string = "i love you"
+        var check = "love"
+        console.log(string.includes(check));
+
+        // Bài 2
+        var themdau = "..."
+        console.log(string.slice(0,8).concat(themdau));
+
+        // Bài 3
+
+        var string1 = "chào mừng đến với techmaster"
+        console.log(string1.toUpperCase());
+
+
+
+        // Bài 4
+            var space = " "
+        console.log((string.repeat(1).concat(space)).repeat(10));
+
+
+
+        // Bài 5
+        var dau = "-"
+        console.log((string.repeat(1).concat(dau)).repeat(10));
+        
+
+
+        // Bài 6
+
+        var string = "i love you 5"
+        console.log((string.slice(0,10).concat(dau)).repeat(5));
+
+
+        // Bài 7
+
+            var string ="Ai đưa em về"
+            var str_arr = string.split(" ");
+            console.log(str_arr.reverse().join(" "));
+    
+        
+            // Bài 8
+
+
+
+
+
+
+
+        // Bài tập phần Array
+
+        // Bài 9
+
+        var numbers = [1,2,3,4,5]
+        var minInNumbers = Math.min.apply(Math,numbers);
+        console.log([minInNumbers]);
+
+
+        // Bài 10
+        var numbers = [1,2,3,4,5]
+        var maxInNumbers = Math.max.apply(Math,numbers);
+        var new_numbers = []
+
+
+        // Bài 12
+        var tong = 0
+        for (var i = 0; i <= 100; i++){
+        if (i % 5 == 0){
+            tong = tong + i
+            
+         }
+        }
+        console.log(tong);
+
+        // Bài 13
+
+        </script>
+
+        
+
+    </body>
+</html>
