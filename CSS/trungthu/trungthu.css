@@ -1,0 +1,128 @@
+*{
+    margin:auto;
+}
+#wrapper{
+    width: 100%;
+}
+.nen{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.nen> img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.may1{
+    width: 15%;
+    position: absolute;
+    left: 22%;
+}
+.may2{
+    width: 15%;
+    position: absolute;
+    right: 13%;
+}
+
+
+.tho{
+    width: 10%;
+    position: absolute;
+    bottom: 13%;
+    left: 5%;
+    animation: pulse 1s ease infinite alternate;
+}
+.tho1{
+    width: 10%;
+    position: absolute;
+    left: 18%;
+    bottom: 13%;
+    animation: pulse 3s ease infinite alternate;
+}
+.tho2{
+    width: 10%;
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+    animation: pulse 2s ease infinite alternate;
+}
+
+.denlong{
+    width: 15%;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+   
+}
+.denlong1{
+    width: 15%;
+    position: absolute;
+    top: 24%;
+    right: 10%;
+   
+}
+.phao{
+    width: 10%;
+    position: absolute;
+    top:18%;
+   
+}
+.phao1{
+    width: 10%;
+    position: absolute;
+    top:15%;
+    left: 3%;
+   
+}
+.phao2{
+    width: 10%;
+    position: absolute;
+    top:12%;
+    left: 6%;
+   
+}
+.trungtam{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+.mattrang{
+    position: relative;
+  
+    
+}
+.chihang{
+    width: 40%;
+    position: absolute;
+    top:20%;
+    left: 32%;
+    animation: 
+    nudge 10s infinite alternate;
+}
+@keyframes nudge{
+    0%, 100%{
+        transform: translate(0px, 0px);
+    }
+   
+    50% {
+        transform: translate(60px, 0px);
+    }
+   
+
+}
+@keyframes pulse{
+    0%, 100%{
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0px, -30px);
+    }
+    80% {
+        transform: translate(0px, 0px);
+    }
+
+}
+
