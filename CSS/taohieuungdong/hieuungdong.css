@@ -1,0 +1,41 @@
+.tym{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    position: relative;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;   
+}
+.box{
+    background-color: #FAFAFC;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+.div1{
+    background-color: darkgreen;
+    display: none;
+}
+.div2{
+    background-color: darkorange;
+    display: none;
+}
+.div3{
+    background-color: midnightblue;
+    display: none;
+}
+div:hover div1{
+    display: block;
+
+}
+
+
+
+
+    
