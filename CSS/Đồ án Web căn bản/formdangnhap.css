@@ -4,7 +4,7 @@ body {
 }
 .body {
   width: 100%;
-  height: 700px;
+  height: 1000px;
   background-image: url("img/girl3.jpg");
   background-repeat: no-repeat;
   position: relative;
