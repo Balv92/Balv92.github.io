@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+}
+.menu {
+  width: 97%;
+  height: 60px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+}
+.menu > li > a {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.menu > li {
+  padding: 0% 6%;
+}
+.menu1 {
+  position: relative;
+}
+.menu > li > a > i {
+  font-size: 30px;
+  color: white;
+  top: 5px;
+  right: 10%;
+}
+.sub_menu {
+  width: 140px;
+  padding: 0px 0px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 26%;
+  background-color: #548999;
+}
+.sub_menu > li {
+  border-top: 1px dotted whitesmoke;
+  line-height: 30px;
+}
+.sub_menu > li > a {
+  color: white;
+}
+.menu > li > a:hover {
+  opacity: 0.5;
+}
+.menu1:hover .sub_menu {
+  display: block;
+}
+.content {
+  margin-top: 100px;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 75px;
+}
+figcaption {
+  margin-top: 20px;
+  font-weight: 600;
+}
+figcaption > a {
+  color: black;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+.detail {
+  width: 300px;
+  text-align: left;
+  margin-left: 42px;
+}
+img {
+  transition: transform ease 0.5s;
+}
+img:hover {
+  transform: scale(1.2);
+  border-radius: 5%;
+}
+.foot {
+  background-color: #151515;
+  width: 100%;
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.navifoot {
+  margin: 8px 0 25px 0;
+  flex: 0 0 25%;
+}
+.navifoot > h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.academy > p {
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 22%;
+}
+.sanpham > p {
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 36%;
+}
+.lienhe > p {
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 40%;
+}
+.theodoi > p {
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 24%;
+  position: relative;
+}
+input:focus {
+  outline: none;
+}
+.dangky {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: tomato;
+}
+.email {
+  height: 30px;
+  border-radius: 5px;
+}
+.backtop {
+  width: 30px;
+  height: 25px;
+  background-color: rgb(60, 245, 60);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.arrow {
+  text-align: center;
+}
